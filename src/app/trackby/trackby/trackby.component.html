@@ -1,0 +1,4 @@
+<div>
+    <button (click)="changeList()">Add Other</button>
+    <p *ngFor="let item of items; let index = index" (click)="delete(index)">Hola yo soy {{ item }}</p>
+</div>
